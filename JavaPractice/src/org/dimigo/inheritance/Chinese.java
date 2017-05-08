@@ -20,7 +20,7 @@ public class Chinese extends Person {
 	public Chinese(String name) {
 		super(name);
 	}
-	 
+	
 	public void sayHello() {
 		System.out.println("니하오");
 	}
