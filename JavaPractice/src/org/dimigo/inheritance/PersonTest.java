@@ -34,7 +34,7 @@ public class PersonTest {
 		j.sayHello();
 		c.sayHello();
 		System.out.println();
-		
+		 
 		p.sayBye();
 		k.sayBye();
 		j.sayBye();
