@@ -16,7 +16,7 @@ package org.dimigo.inheritance;
  * @version : 1.0
  */
 public class PersonTest {
-
+ 
 	public static void main(String[] args) {
 		Person p = new Person("Tom");
 		Korean k = new Korean("홍길동");

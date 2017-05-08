@@ -16,7 +16,7 @@ package org.dimigo.inheritance;
  * @version : 1.0
  */
 public class Chinese extends Person {
-
+ 
 	public Chinese(String name) {
 		super(name);
 	}

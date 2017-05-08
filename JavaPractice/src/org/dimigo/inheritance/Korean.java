@@ -16,7 +16,7 @@ package org.dimigo.inheritance;
  * @version : 1.0
  */
 public class Korean extends Person {
-
+ 
 	public Korean(String name) {
 		super(name);
 	}
