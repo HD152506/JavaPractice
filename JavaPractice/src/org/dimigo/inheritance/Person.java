@@ -1,7 +1,7 @@
 /**
  * 
  */
-package inheritance;
+package org.dimigo.inheritance;
 
 /**
  * <pre>
