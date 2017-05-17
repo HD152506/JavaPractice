@@ -42,5 +42,5 @@ public class Person {
 	public void sayBye() {
 		System.out.println("Bye");
 	}
-	
+
 }
