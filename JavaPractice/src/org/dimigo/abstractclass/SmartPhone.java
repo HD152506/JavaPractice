@@ -15,7 +15,7 @@ package org.dimigo.abstractclass;
  * @author : 김은상
  * @version : 1.0
  */
-public class SmartPhone {
+public abstract class SmartPhone {
 	private String model;
 	private String company;
 	private int price;
@@ -38,17 +38,15 @@ public class SmartPhone {
 		System.out.println(model + "의 전원을 끕니다.");
 	}
 	
-	public void pay() {
-		
-	}
+	public abstract void pay();
 	
-	public void useSpecialFunction(SmartPhone phone) {
-		if(phone instanceof IPhone) {
-			((IPhone) phone).useAirDrop();
+	public void useSpecialFunction() {
+		if(this instanceof IPhone) {
+			((IPhone) this).useAirDrop();
 		}
-		else if(phone instanceof Galaxy)
+		else if(this instanceof Galaxy)
 		{
-			((Galaxy) phone).useWirelessCharging();
+			((Galaxy) this).useWirelessCharging();
 		}
 	}
 	
