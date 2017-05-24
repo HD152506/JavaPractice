@@ -24,7 +24,7 @@ public class DBTest {
 		System.out.println("<<변경후>>");
 		IDBManager o = IDBManager.getDBObject("ORACLE");
 		crud(o);
-		
+		 
 	}
 	
 	private static void crud(IDBManager db) {
