@@ -33,11 +33,15 @@ public class Movie {
 	}
 	
 	public void buyTicket(int age) throws Exception {
-		if (getLimitage() > age) {
-			throw new Exception(getTitle() + "은/는"  + getLimitage() + "세 이상 관람가입니다.");
-		}
-		else {
-			System.out.println(getTitle() + " 즐감하세요.");
+		try {
+			if (getLimitage() > age) {
+				throw new Exception(getTitle() + "은/는"  + getLimitage() + "세 이상 관람가입니다.");
+			}
+			else {
+				System.out.println(getTitle() + " 즐감하세요.");
+			}
+		} catch (Exception e) {
+			throw e;
 		}
 	}
 }
